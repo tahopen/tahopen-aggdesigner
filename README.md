@@ -24,7 +24,7 @@ Optionally you can specify -Drelease to trigger obfuscation and/or uglification 
 Optionally you can specify -Dmaven.test.skip=true to skip the tests (even though
 you shouldn't as you know)
 
-The build result will be a Pentaho package located in *assemblies/pad-ce/target/*.
+The build result will be a Tahopen package located in *assemblies/tad-ce/target/*.
 
 #### Running the tests
 
