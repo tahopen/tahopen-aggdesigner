@@ -44,7 +44,7 @@
       </snapshots>
     </repository>
   </repositories>
-
+<!--
   <pluginRepositories>
     <pluginRepository>
       <id>pentaho-public-plugins</id>
@@ -58,5 +58,6 @@
       </releases>
     </pluginRepository>
   </pluginRepositories>
+-->    
 
 </project>

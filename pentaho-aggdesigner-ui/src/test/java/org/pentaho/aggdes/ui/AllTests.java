@@ -18,6 +18,8 @@
 
 package org.pentaho.aggdes.ui;
 
+import java.util.Locale;
+
 import org.pentaho.aggdes.ui.exec.impl.JdbcTemplateSqlExecutorTest;
 
 import junit.framework.Test;
@@ -27,6 +29,7 @@ public class AllTests {
 
   public static Test suite() {
     TestSuite suite = new TestSuite( "Test for org.pentaho.aggdes.ui" );
+    //Locale.forLanguageTag("en-US");
     //$JUnit-BEGIN$
     suite.addTestSuite( AggregateSummaryModelTest.class );
     suite.addTestSuite( AggListImplTest.class );
