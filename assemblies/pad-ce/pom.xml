@@ -19,6 +19,7 @@
     <assembly.dir>${project.build.directory}/assembly</assembly.dir>
     <pentaho-launcher.version>9.6.0.0-SNAPSHOT</pentaho-launcher.version>
     <oss-licenses.version>9.6.0.0-SNAPSHOT</oss-licenses.version>
+    <log4j2.version>2.17.1</log4j2.version>
   </properties>
   <dependencies>
     <dependency>
@@ -44,13 +45,20 @@
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-slf4j-impl</artifactId>
-      <version>2.22.1</version>      
+      <version>${log4j2.version}</version>      
       <scope>runtime</scope>
     </dependency>
+<!-- init add marcio test 
+    <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j2.version}</version>
+    </dependency>    
+ end add marcio test -->    
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-jcl</artifactId>
-      <version>2.22.1</version>      
+      <version>${log4j2.version}</version>      
     </dependency>
   </dependencies>
 
