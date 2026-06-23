@@ -3,14 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-aggdesigner-parent-pom</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-aggdesigner-parent-pom</artifactId>
+    <version>0.1.0.0</version>
   </parent>
-  <groupId>pentaho</groupId>
-  <artifactId>pentaho-aggdesigner-core</artifactId>
-  <version>9.6.0.0-SNAPSHOT</version>
-  <name>Pentaho Aggregation Designer Core</name>
+  <groupId>org.tahopen</groupId>
+  <artifactId>tahopen-aggdesigner-core</artifactId>
+  <version>0.1.0.0</version>
+  <name>Tahopen Aggregation Designer Core</name>
   <licenses>
     <license>
       <name>GNU General Public License (GPL) version 2.0</name>
@@ -19,9 +19,6 @@
       <comments></comments>
     </license>
   </licenses>
-  <scm>
-    <developerConnection>scm:git:git@github.com:pentaho/pentaho-aggdesigner.git</developerConnection>
-  </scm>
   <properties>
     <commons-io.version>2.15.1</commons-io.version>
     <guava.version>33.0.0-jre</guava.version>
@@ -41,7 +38,7 @@
     <mysql.password>root</mysql.password>
     <sql-maven-plugin.version>1.5</sql-maven-plugin.version>
     <foodmart.schema.name>Foodmart</foodmart.schema.name>
-    <mondrian.version>9.6.0.0-SNAPSHOT</mondrian.version>
+    <mondrian.version>0.1.0.0</mondrian.version>
     <maven.compiler.source>7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>    
   </properties>
@@ -77,8 +74,8 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>mondrian</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>drianmon</artifactId>
       <version>${mondrian.version}</version>
       <scope>compile</scope>
       <exclusions>

@@ -3,17 +3,17 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-aggdesigner-parent-pom</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-aggdesigner-parent-pom</artifactId>
+    <version>0.1.0.0</version>
   </parent>
-  <groupId>pentaho</groupId>
-  <artifactId>pentaho-aggdesigner-assemblies</artifactId>
-  <version>10.1.0.0-SNAPSHOT</version>
+  <groupId>org.tahopen</groupId>
+  <artifactId>tahopen-aggdesigner-assemblies</artifactId>
+  <version>0.1.0.0</version>
   <packaging>pom</packaging>
-  <name>Pentaho Aggregation Designer Assemblies</name>
+  <name>Tahopen Aggregation Designer Assemblies</name>
   <description>Packages Aggregation Designer artifacts</description>
-  <url>http://www.pentaho.com</url>
+  <url>https://www.tahopen.org</url>
   <modules>
     <module>pad-ce</module>
   </modules>

@@ -4,36 +4,34 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>pentaho</groupId>
-    <artifactId>pentaho-aggdesigner-assemblies</artifactId>
-    <version>10.1.0.0-SNAPSHOT</version>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tahopen-aggdesigner-assemblies</artifactId>
+    <version>0.1.0.0</version>
   </parent>
   <artifactId>pad-ce</artifactId>
-  <version>9.6.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>pom</packaging>
-  <name>Pentaho Aggregation Designer CE</name>
-  <scm>
-    <developerConnection>scm:git:git@github.com:pentaho/pentaho-aggdesigner.git</developerConnection>
-  </scm>
+  <name>Tahopen Aggregation Designer CE</name>
   <properties>
     <assembly.dir>${project.build.directory}/assembly</assembly.dir>
-    <pentaho-launcher.version>9.6.0.0-SNAPSHOT</pentaho-launcher.version>
-    <oss-licenses.version>9.6.0.0-SNAPSHOT</oss-licenses.version>
+    <pentaho-launcher.version>0.1.0.0</pentaho-launcher.version>
+    <oss-licenses.version>0.1.0.0</oss-licenses.version>
     <log4j2.version>2.17.1</log4j2.version>
   </properties>
   <dependencies>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-aggdesigner-ui</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-aggdesigner-ui</artifactId>
       <version>${project.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-application-launcher</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-application-launcher</artifactId>
       <version>${pentaho-launcher.version}</version>
       <scope>runtime</scope>
     </dependency>
+<!--
     <dependency>
       <groupId>pentaho</groupId>
       <artifactId>oss-licenses</artifactId>
@@ -41,6 +39,7 @@
       <type>zip</type>
       <scope>runtime</scope>
     </dependency>
+-->
     <!-- Use log4j implementation with SLF4J -->
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
@@ -48,13 +47,11 @@
       <version>${log4j2.version}</version>      
       <scope>runtime</scope>
     </dependency>
-<!-- init add marcio test 
     <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>${log4j2.version}</version>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>${log4j2.version}</version>
     </dependency>    
- end add marcio test -->    
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-jcl</artifactId>
