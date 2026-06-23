@@ -8,7 +8,7 @@
     <artifactId>tahopen-aggdesigner-assemblies</artifactId>
     <version>0.1.0.0</version>
   </parent>
-  <artifactId>pad-ce</artifactId>
+  <artifactId>tad-ce</artifactId>
   <version>0.1.0.0</version>
   <packaging>pom</packaging>
   <name>Tahopen Aggregation Designer CE</name>
