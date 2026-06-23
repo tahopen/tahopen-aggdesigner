@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<window id="label-test" title="Pentaho Aggregate Join Index Utility"
+<window id="label-test" title="Tahopen Aggregate Join Index Utility"
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:pen="http://www.pentaho.org/2008/xul"
   height="600" width="800">
 
