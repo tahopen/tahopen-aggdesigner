@@ -26,4 +26,4 @@ DIR=$( cd "$( dirname "$0" )" && pwd )
 . "$DIR/set-pentaho-env.sh"
 setPentahoEnv
 
-"$_PENTAHO_JAVA" -jar "$DIR/lib/pentaho-application-launcher-9.6.0.0-SNAPSHOT.jar"
+"$_PENTAHO_JAVA" -jar "$DIR/lib/tahopen-application-launcher-9.6.0.0-SNAPSHOT.jar"
