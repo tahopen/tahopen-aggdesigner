@@ -12,7 +12,7 @@
   <version>0.1.0.0</version>
   <packaging>pom</packaging>
   <name>Tahopen Aggregation Designer Parent</name>
-  <description>Container pom for tahopen-aggdesigner-core and pentaho-aggdesigner-ui</description>
+  <description>Container pom for tahopenn-aggdesigner-core and tahopen-aggdesigner-ui</description>
   <url>https://www.tahopen.org</url>
   <modules>
     <module>pentaho-aggdesigner-core</module>
